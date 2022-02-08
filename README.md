@@ -24,3 +24,10 @@ Este professor não utiliza nenhuma prova para realizar a avaliação da turma, 
 Teremos entre 4 e 6 atividades, todas de múltipla escolha e com prazo de ao menos 15 dias para realização.
 
 A média desta disciplina é calculada simplesmente pela média das atividades.
+
+
+## Links interessantes
+
+Abaixo seguem alguns links interessantes disponibilizados pelo professor ou pelos discentes da turma:
+
+ - [Vídeo Aula de Redes Protocolo TCP/IP DUBLADO (PTBR) - Para Iniciantes](https://www.youtube.com/watch?v=aclH6Wf4f44) - Dica do Anderson
