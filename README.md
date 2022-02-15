@@ -1,8 +1,8 @@
 # Programação Backend
 
-Prof. Thiago G. Traue
+**Professor:** Thiago G. Traue (thiago.traue@uni9.pro.br)
 
-thiago.traue@uni9.pro.br
+**Classroom da turma:** [NESTE LINK](https://classroom.google.com/c/NDY1OTg2MzY1MTU0?cjc=7vt44ev)
 
 ---
 
@@ -13,7 +13,7 @@ Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NEST
 
 ## Atividades
 
-Essa disciplina ainda não demanda atividades.
+Todas as atividades da disciplina serão ministradas via Classroom. Fique atento(a)!
 
 
 
