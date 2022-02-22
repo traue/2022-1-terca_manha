@@ -1,47 +1,47 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-</head>
-<body>
-    <!-- isso é um comentário  -->
-    <h1>Minha primeira página PHP</h1>
-    <hr>
-    <br>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <!-- isso é um comentário  -->
+        <h1>Minha primeira página PHP</h1>
+        <hr>
+        <br>
 
-    <?php
-        //isso é um comentário dentro do PHP
-        /**
-         * Isso é um 
-         * bloco que comentários
-         */
+        <?php
+            //isso é um comentário dentro do PHP
+            /**
+             * Isso é um 
+             * bloco que comentários
+             */
 
-         //isso é uma variável textual (String):
-         $nome = 'Thiago G. Traue';
+            //isso é uma variável textual (String):
+            $nome = 'Thiago G. Traue';
 
-         //essa é uma variável de valor inteiro:
-         $idade = 34;
+            //essa é uma variável de valor inteiro:
+            $idade = 34;
 
-         //variável de ponto flutuante (real)
-         $altura = 1.83;
+            //variável de ponto flutuante (real)
+            $altura = 1.83;
 
-         //variável booleana (verdadeira ou falsa)
-         $fumante = true;
+            //variável booleana (verdadeira ou falsa)
+            $fumante = true;
 
-         //outra variável textual
-         $time = "Bragantino"; //você pode usar aspas simples ou duplas
-    ?>
+            //outra variável textual
+            $time = "Bragantino"; //você pode usar aspas simples ou duplas
+        ?>
 
-    <h2>Dados do usuáro:</h2>
-    <br>
-    <p>Nome: <?= $nome ?> </p>
-    <p>Idade: <?= $idade ?> </p>
-    <p>Time que torce: <?= $time ?> </p>
-    <p>Altura: <?= $altura ?> </p>
-    <p>Fuma? <?= $fumante ?> </p>
+        <h2>Dados do usuáro:</h2>
+        <br>
+        <p>Nome: <?= $nome ?> </p>
+        <p>Idade: <?= $idade ?> </p>
+        <p>Time que torce: <?= $time ?> </p>
+        <p>Altura: <?= $altura ?> </p>
+        <p>Fuma? <?= $fumante ?> </p>
 
-</body>
-</html>
+    </body>
+    </html>
