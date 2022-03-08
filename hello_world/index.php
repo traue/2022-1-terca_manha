@@ -12,7 +12,7 @@
         <hr>
         <br>
 
-        <?php
+        <?php //isso é um blodo de código PHP...
             //isso é um comentário dentro do PHP
             /**
              * Isso é um 
@@ -37,11 +37,22 @@
 
         <h2>Dados do usuáro:</h2>
         <br>
-        <p>Nome: <?= $nome ?> </p>
-        <p>Idade: <?= $idade ?> </p>
-        <p>Time que torce: <?= $time ?> </p>
-        <p>Altura: <?= $altura ?> </p>
-        <p>Fuma? <?= $fumante ?> </p>
+        <p>Nome: <?= $nome ?></p>
+        <p>Idade: <?= $idade ?></p>
+        <p>Time que torce: <?= $time ?></p>
+        <p>Altura: <?= $altura ?></p>
 
+        <?php
+            // if($fumante) { //SE... verdadeiro (condição booleana), entre no bloco
+            //     echo('<p>Fuma? Sim!</p>');
+            // } else {
+            //     echo('<p>Fuma? Não!</p>');
+            // }
+        ?>
+
+        <!-- é o mesmo que....: -->
+        <p>Fuma? <?= $fumante ? 'Sim' : 'Não' ?> </p>
+
+        
     </body>
     </html>
