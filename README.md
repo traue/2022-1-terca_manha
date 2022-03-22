@@ -10,12 +10,9 @@
 
 Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK](https://docs.google.com/document/d/1MuIPfxMHEaPD1TfmITMlK0Co7eYWwvQ6uEHKuny7SAc/edit?usp=sharing)
 
-
 ## Atividades
 
 Todas as atividades da disciplina serão ministradas via Classroom. Fique atento(a)!
-
-
 
 ## Critérios de Avaliação
 
@@ -25,9 +22,10 @@ Teremos entre 4 e 6 atividades, todas de múltipla escolha e com prazo de ao men
 
 A média desta disciplina é calculada simplesmente pela média das atividades.
 
-
 ## Links interessantes
 
 Abaixo seguem alguns links interessantes disponibilizados pelo professor ou pelos discentes da turma:
 
- - [Vídeo Aula de Redes Protocolo TCP/IP DUBLADO (PTBR) - Para Iniciantes](https://www.youtube.com/watch?v=aclH6Wf4f44) - Dica do Anderson
+- [Vídeo Aula de Redes Protocolo TCP/IP DUBLADO (PTBR) - Para Iniciantes](https://www.youtube.com/watch?v=aclH6Wf4f44) - Dica do Anderson
+- [Vídeos de introdução ao HTML](https://www.youtube.com/watch?v=1LJGQb_pn6k) - Dica do Professor
+- [Vídeo de introdução ao XAMPP](https://www.youtube.com/watch?v=L-0prC44hbY) - Dica do Professor
