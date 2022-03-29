@@ -2,7 +2,7 @@
 
 **Professor:** Thiago G. Traue (thiago.traue@uni9.pro.br)
 
-**Classroom da turma:** [NESTE LINK](https://classroom.google.com/c/NDY1OTg2MzY1MTU0?cjc=7vt44ev)
+**CLASSROOM DA DISCIPLINA:** [NESTE LINK](https://classroom.google.com/c/NDY1OTg2MzY1MTU0?cjc=7vt44ev)
 
 ---
 
@@ -13,6 +13,11 @@ Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NEST
 ## Atividades
 
 Todas as atividades da disciplina serão ministradas via Classroom. Fique atento(a)!
+
+Atividades da disciplina (lembre-se que é via Classroom e é preciso utilizar a conta institucional para acessar)
+
+- **Atividade 1**: De 15.03 até 24.05, 09h - Em andamento
+- **Atividade 2**: De 29.03 até 31.05, 09h - Em andamento
 
 ## Critérios de Avaliação
 
