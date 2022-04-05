@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <style>
+        body {
+            background-color: rgb(251, 251, 251);
+        }
+
+        .cabecalho {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            color: rgb(69, 69, 69);
+        }
+
+        .formulario {
+            font-size: 22px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 250px;
+            border: dotted 1px darkblue;
+            margin: auto;
+            margin-top: 50px;
+            padding: 30px 10px;
+        }
+
+        form input[type="number"] {
+            width: 60px;
+            font-size: 22px;
+            font-size: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            ;
+        }
+
+        form input[type="submit"] {
+            width: 100%;
+            font-size: 22px;
+            background-color: darkblue;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cabecalho">
+        <p>Calculadora IMC</p>
+        <hr>
+    </div>
+
+    <div class="formulario">
+        <form method="post" action="resultado_imc.php">
+            <label>Informe o peso: </label>
+            <input type="number" name="peso" required>
+            <label>Kg</label>
+            <br><br>
+            <label>Informe a altura:</label>
+            <input type="number" step="0.01" name="altura" required>
+            <label>m</label>
+            <br><br>
+            <input type="submit" value="Calcula IMC">
+        </form>
+    </div>
+</body>
+<!-- paramos aqui.. falta fazer o reaultado_imc.php -->
+</html>
