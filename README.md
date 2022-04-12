@@ -18,6 +18,7 @@ Atividades da disciplina (lembre-se que é via Classroom e é preciso utilizar a
 
 - **Atividade 1**: De 15.03 até 24.05, 09h - Em andamento
 - **Atividade 2**: De 29.03 até 31.05, 09h - Em andamento
+- **Atividade 3**: De 12.04 até 31.05, 09h - Em andamento
 
 ## Critérios de Avaliação
 
