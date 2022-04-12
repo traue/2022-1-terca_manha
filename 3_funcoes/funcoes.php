@@ -10,44 +10,36 @@
 
 <body>
     <?php
-    /*Existem essencialmente 4 tipos de funções:
-         - sem entrada de parâmetros e sem retorno
-         - com entrada de parâmetros e sem retorno
-         - sem entrada de parâmetros e com retorno
-         - com entrada de parâmetros e com retorno
-        */
+        /*Existem essencialmente 4 tipos de funções:
+            - sem entrada de parâmetros e sem retorno
+            - com entrada de parâmetros e sem retorno
+            - sem entrada de parâmetros e com retorno
+            - com entrada de parâmetros e com retorno
+            */
 
-    //não entra nada e não retorna nada
-    function dizOla()
-    {
-        echo '<b>Olá mundo!</b>';
-    }
+        //não entra nada e não retorna nada
+        function dizOla()
+        {
+            echo '<b>Olá mundo!</b>';
+        }
 
-    //entra uma variá e não retorna nada 
-    function falaNome($nome)
-    {
-        echo 'Olá ' . $nome . ' seja bem-vind@!';
-    }
+        //entra uma variá e não retorna nada 
+        function falaNome($nome)
+        {
+            echo 'Olá ' . $nome . ' seja bem-vind@!';
+        }
 
-    //sem entrada e com retorno
-    function valorPI()
-    {
-        return 3.141512;
-    }
+        //sem entrada e com retorno
+        function valorPI()
+        {
+            return 3.141512;
+        }
 
-    //com entrada e com retorno
-    function calculaNascimento($idade)
-    {
-        return 2022 - $idade;
-    }
-
-
-
-    function calculaIMC($peso, $altura)
-    {
-        $imc = $peso / ($altura * $altura);
-        return $imc;
-    }
+        //com entrada e com retorno
+        function calculaNascimento($idade)
+        {
+            return 2022 - $idade;
+        }
 
     ?>
 
@@ -56,17 +48,17 @@
     <?= falaNome(324) ?>;
     <br>
     <?php
-    $x = valorPI();
-    $x = $x * 3;
-    echo $x;
+        $x = valorPI();
+        $x = $x * 3;
+        echo $x;
     ?>
 
     <br>
 
     <?php
-    $idade = 35;
-    $ano_nascimento = calculaNascimento($idade);
-    echo "Ah! legal, você nasceu em " . $ano_nascimento . "!";
+        $idade = 35;
+        $ano_nascimento = calculaNascimento($idade);
+        echo "Ah! legal, você nasceu em " . $ano_nascimento . "!";
     ?>
     
 </body>
