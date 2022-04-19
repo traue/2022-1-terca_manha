@@ -16,3 +16,8 @@ CREATE TABLE tb_tarefas(
     data_cadastro DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
  	FOREIGN KEY(id_status) REFERENCES tb_status(id)
 );
+
+-- APENAS UM TESTE: 
+INSERT INTO tb_tarefas(tarefa) VALUES('Lavar a louça');
+INSERT INTO tb_tarefas(tarefa) VALUES('Levar o lixo');
+INSERT INTO tb_tarefas(tarefa) VALUES('Fazer um bolo');
