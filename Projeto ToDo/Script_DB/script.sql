@@ -17,7 +17,7 @@ CREATE TABLE tb_tarefas(
  	FOREIGN KEY(id_status) REFERENCES tb_status(id)
 );
 
--- APENAS UM TESTE: 
+-- APENAS PARA TESTAR.. INSERÇÃO NA TALEBA DE TAREFAS: 
 INSERT INTO tb_tarefas(tarefa) VALUES('Lavar a louça');
 INSERT INTO tb_tarefas(tarefa) VALUES('Levar o lixo');
 INSERT INTO tb_tarefas(tarefa) VALUES('Fazer um bolo');
