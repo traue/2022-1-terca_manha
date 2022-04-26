@@ -1,0 +1,27 @@
+.menu {
+   margin-bottom: 25px; 
+}
+
+.app {
+    margin-top: 25px;
+}
+
+.pagina {
+    border: dotted 1px orange;
+    padding: 25px !important;
+}
+
+li.list-group-item.active {
+    background-color: pink;
+    border-color: palevioletred;
+    border-left: solid 10px palevioletred;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+}
