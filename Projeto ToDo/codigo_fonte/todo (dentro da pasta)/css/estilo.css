@@ -29,3 +29,8 @@ li a:hover {
 h4 {
     color: palevioletred;;
 }
+
+.confirmacao {
+    background-color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+}

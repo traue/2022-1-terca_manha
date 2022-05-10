@@ -1,14 +1,11 @@
 <?php
-class Conexao
-{
-
+class Conexao {
     private $host = 'localhost';
     private $db_name = 'todo_list';
     private $user = 'root';
     private $pass = '';
 
-    public function conectar()
-    {
+    public function conectar() {
         try {
 
             $conexao = new PDO(

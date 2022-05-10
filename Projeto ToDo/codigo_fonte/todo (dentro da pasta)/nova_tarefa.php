@@ -23,6 +23,14 @@
         </div>
     </nav>
 
+    <?php if(isset($_GET['inclusao']) && $_GET['inclusao'] == 1) : ?>
+        <div class="pt-2 d-flex justify-content-center confirmacao">
+            <h5>
+                Tarefa inserida com sucesso!
+            </h5>
+        </div>
+    <?php endif; ?>
+
     <div class="container app">
         <div class="row">
             <div class="col-md-3 menu">
@@ -39,7 +47,7 @@
                         <div class="col">
                             <h4>Nova Tarefa:</h4>
                             <hr/>
-                            <form>
+                            <form action="tarefa_controller.php?acao=inserir" method="post">
                                 <div class="form-group">
                                     <label>Tarefa:</label>
                                     <input class="form-control" type="text" name="tarefa" placeholder="Exemplo: Comprar pão" required>
