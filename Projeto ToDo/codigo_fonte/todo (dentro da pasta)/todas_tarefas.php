@@ -1,3 +1,13 @@
+<?php
+$acao = "recuperar";
+require "tarefa_controller.php";
+
+//apenas para testar
+// echo "<pre>";
+// print_r($tarefas);
+// echo "</pre>";
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -25,17 +35,35 @@
 
     <div class="container app">
         <div class="row">
-            <div class="col-md-3 menu">
+            <div class="col-sm-3 menu">
                 <ul>
                     <li class="list-group-item"><a href="index.php">Tarefas Pendentes</a></li>
                     <li class="list-group-item"><a href="nova_tarefa.php">Nova Tarefa</a></li>
                     <li class="list-group-item active"><a href="todas_tarefas.php">Todas Tarefas</a></li>
                 </ul>
             </div>
-        </div>
-    </div>
-    <!-- paramos aqui -->
 
-</body>
+            <div class="col-sm-9">
+					<div class="container pagina">
+						<div class="row">
+							<div class="col">
+								<h4>Todas tarefas</h4>
+								<hr />
 
+								<?php foreach($tarefas as $indice => $tarefa) { ?>
+									<div class="row mb-3 d-flex align-items-center">
+										<div class="col-sm-9" id="tarefa_<?= $tarefa->id ?>">
+											<?= $tarefa->tarefa ?> (<?= $tarefa->status ?>)
+										</div>
+									</div>
+
+								<?php } ?>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
