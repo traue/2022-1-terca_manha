@@ -22,6 +22,8 @@ Atividades da disciplina (lembre-se que é via Classroom e é preciso utilizar a
 - **Atividade 4**: De 17.05 até 07.06, 09h - Em andamento
 - **Atividade 5**: De 24.05 até 14.06, 09h - Em andamento
 
+**Atividade de recuperação:** 14.06 (em aula)
+
 ## Critérios de Avaliação
 
 Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre. 
