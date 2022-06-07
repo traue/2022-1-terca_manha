@@ -44,6 +44,32 @@ class TarefaService {
         return $stmt->fetchAll(PDO::FETCH_OBJ);
     }
 
+    //método que marca uma tarefa como realizada
+    public function marcarRealizada() {
+        $query = "UPDATE tb_tarefas SET id_status = ? WHERE id = ?";
+        $stmt = $this->conexao->prepare($query);
+        $stmt->bindValue(1, $this->tarefa->__get("id_status"));
+        $stmt->bindValue(2, $this->tarefa->__get("id"));
+        return $stmt->execute();
+    }
+
+    //método que exclui uma tarefa do sistema
+    public function removerTarefa() {
+        $query = "DELETE FROM tb_tarefas WHERE id = ?";
+        $stmt = $this->conexao->prepare($query);
+        $stmt->bindValue(1, $this->tarefa->__get("id"));
+        return $stmt->execute();
+    }
+
+    //método que atualiza uma tarefa no sistema
+    public function atualizaTarefa() {
+        $query = "UPDATE tb_tarefas SET tarefa = ? WHERE id = ?";
+        $stmt = $this->conexao->prepare($query);
+        $stmt->bindValue(1, $this->tarefa->__get("tarefa"));
+        $stmt->bindValue(2, $this->tarefa->__get("id"));
+        return $stmt->execute();
+    }
+
 }
 
 ?>

@@ -18,6 +18,30 @@
     } else if($acao == 'recuperarPendentes') {
         $tarefa->__set('id_status', 1);
         $tarefas = $tarefaService->recuperarTarefasPendentes();
+    } else if($acao == 'marcarRealizada') {
+        $tarefa->__set('id', $_GET['id'])->__set('id_status', 2);
+        $tarefaService->marcarRealizada();
+        if(isset($_GET['pagina']) && $_GET['pagina'] == 'index') {
+            header('Location: index.php');
+        } else {
+            header('Location: todas_tarefas.php');
+        }
+    } else if($acao == 'removerTarefa') {
+        $tarefa->__set('id', $_GET['id']);
+        $tarefaService->removerTarefa(); 
+        if(isset($_GET['pagina']) && $_GET['pagina'] == 'index') {
+            header('Location: index.php');
+        } else {
+            header('Location: todas_tarefas.php');
+        }
+    } else if($acao == 'atualizarTarefa') {
+        $tarefa->__set('id', $_POST['id'])->__set('tarefa', $_POST['tarefa']);
+        $tarefaService->atualizaTarefa();
+        if(isset($_GET['pagina']) && $_GET['pagina'] == 'index') {
+            header('Location: index.php');
+        } else {
+            header('Location: todas_tarefas.php');
+        }
     }
 
 ?>
