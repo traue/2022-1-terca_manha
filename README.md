@@ -19,14 +19,14 @@ Atividades da disciplina (lembre-se que é via Classroom e é preciso utilizar a
 - **Atividade 1**: De 15.03 até 24.05, 09h - Encerrada
 - **Atividade 2**: De 29.03 até 31.05, 09h - Encerrada
 - **Atividade 3**: De 12.04 até 31.05, 09h - Encerrada
-- **Atividade 4**: De 17.05 até 07.06, 09h - Em andamento
+- **Atividade 4**: De 17.05 até 07.06, 09h - Encerrada
 - **Atividade 5**: De 24.05 até 14.06, 09h - Em andamento
 
 **Atividade de recuperação:** 14.06 (em aula)
 
 ## Critérios de Avaliação
 
-Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre. 
+Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre.
 
 Teremos entre 4 e 6 atividades, todas de múltipla escolha e com prazo de ao menos 15 dias para realização.
 
